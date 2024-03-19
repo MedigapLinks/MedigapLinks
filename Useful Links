@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Bookmarks</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .bookmark {
+            margin-bottom: 15px;
+        }
+        .bookmark a {
+            text-decoration: none;
+            color: blue;
+        }
+        .bookmark a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Bookmarks</h1>
+    <div class="bookmark">
+        <h2>Category 1</h2>
+        <ul>
+            <li><a href="https://example.com" target="_blank">Example Link 1</a></li>
+            <!-- Add more bookmarks here -->
+        </ul>
+    </div>
+    <!-- Add more categories and bookmarks as needed -->
+</body>
+</html>
